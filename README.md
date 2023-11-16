@@ -7,7 +7,19 @@ Swift String extensions for changing case
 ## Usage
 
 ```
-"this is a sentence".camelCase() // --> thisIsASentence
+import NutCase
+
+"this is a sentence".camelCased() // --> thisIsASentence
+
+"this is a sentence".sentenceCased() // --> This is a sentence
+
+"this is a sentence".titleCased() // --> This Is A Sentence
+
+"this is a sentence".pascalCased() // --> ThisIsASentence
+
+"this is a sentence".snakeCased() // --> this_is_a_sentence
+
+"this is a sentence".kebabCased() // --> this-is-a-sentence
 ```
 
 ## Installation via Swift Package Manager
